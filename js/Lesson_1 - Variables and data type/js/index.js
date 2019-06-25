@@ -38,21 +38,6 @@ sdfsdfsdfsdfsdfsd
 //   milk: true
 
 // }
-// console.log('afadfadsf');
-// alert('Hello');
-// console.log(55);
-// let result = confirm('Are you ok?');
-// console.log(result);
-// let result = prompt ('Enter name');
-// console.log(result);
-// console.log(coffe);
-
-// let a = Symbol('b');
-// let c = Symbol('b');
-// console.log(a === c);
-
-// alert('Helo world');
-// alert('Second alert');
 
 // typeof
 // let w = 'JS';
@@ -69,10 +54,7 @@ sdfsdfsdfsdfsdfsd
 
 // let answer = prompt('Enter your name');
 // console.log(answer);
-
-
 // let answer2 = confirm('Are you happy?');
-
 // console.log(answer2);
 
 
@@ -209,12 +191,8 @@ sdfsdfsdfsdfsdfsd
 // console.log(typeof NaN);
 
 // console.log((5 + 5 + 'a') + undefined);
-
-
-
 // let a = undefined;
 // let b = ' join';
-// // let c = 0;
 // console.log(a + b); // undefined join
 
 // -
@@ -333,15 +311,6 @@ sdfsdfsdfsdfsdfsd
 // console.log(str.slice(0,3));
 // console.log(str);
 
-
-
-
-
-
-
-
-
-
 // let day = 18;
 // let month = 6;
 // let year = 2018;
@@ -354,12 +323,7 @@ sdfsdfsdfsdfsdfsd
 // let str3 = '';
 // console.log(str + str2 + str3);
 // console.log(`Please ${str} ${str2}`);
-// let a = 'Hello';
-// let up = 'qwertyuiop';
-// let middle = 'asdfghjkl';
-// // console.log(a[0]);
-// console.log(`${middle[5]}`);
-//
+
 // let b = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. At blanditiis dolores impedit molestiae nesciunt numquam placeat qui recusandae! Amet culpa eos iusto perferendis reiciendis sunt velit voluptatem. Commodi, esse, tempora?';
 
 // console.log(b.length);
@@ -376,49 +340,6 @@ sdfsdfsdfsdfsdfsd
 // console.log(splitWord);
 // console.log(splitWord.join('-'));
 
-// let c = 'h+el+l+o';
-// let result = c.split('+');
-// console.log(result);
-// let line = result.join('');
-// console.log(line);
-
-// let d = 'H+el+l+0';
-// d = d.split('+').join('');
-// console.log(d);
-
-// let a = 'Hello';
-// let b = 'World';
-// let c = ' ';
-// let d = a.concat(c, b);
-// //
-// console.log(d);
-// console.log('a',a);
-//  let b = 'Hello World';
-// console.log(b[b.length-1]);// [4]
-// b[b.length]
-// console.log(b.substring());
-
 // let a = 'heroplus';
 // console.log(a.substring(1,3));
 // console.log(a.substr(4, 4));
-
-// let c = "Hello";
-// console.log(c.charAt(0));
-// console.log(c[0]);
-//
-// let b = 'Hello.com ';
-// console.log(b.endsWith('.com'));
-// console.log(b.startsWith('H'));
-// console.log(b.includes('.'));
-// console.log(b.indexOf('o'));
-// console.log(b.repeat(5));
-// let up = 'qtweryuiop';
-// console.log(up.indexOf('z'));
-
-
-
-
-
-
-
-// console.log(year);

@@ -105,8 +105,6 @@
 // console.log(Boolean(' '));
 // console.log(Boolean(-5));
 
-// console.log(!(5 === 5));
-
 // console.log(0 || '' || '0');
 // console.log(0 || null || '0');
 // console.log(0 || undefined || null);
@@ -131,73 +129,6 @@
 // console.log(false && 'false' && -Infinity);
 // console.log('true' && -0 && null);
 // console.log(a = 5 + 6);
-
-// let password = prompt('Enter password');
-// if(password.length >= 6) {
-//     alert('Congratulation');
-// } else {
-//     alert('Enter new password');
-// }
-// let value = prompt('Enter number');
-// if(value > 0  && Number.isInteger(Number(value))) {
-//     alert ('You win');
-// } else {
-//     alert('Try again');
-// }
-
-// let value = prompt('Enter month`s number');
-// let month = Number(value);
-// if(month === 1 || month === 2 || month === 12) {
-//     alert('Winter');
-// } else if (month === 3 || month === 4 || month === 5) {
-//     alert('Spring');
-// } else if (month === 6 || month === 7 || month === 8) {
-//     alert ('Summer');
-// } else if (month === 9 || month === 10 || month === 11) {
-//     alert ('Autumn');
-// } else {
-//     alert ('Enter number from 1 to 12');
-// }
-
-// console.log(12);
-
-// let egyptHotel = 50;
-// let bulgariaHotel = 20;
-// let tryskavetsHotel = 150;
-
-// let amount = prompt('Enter amount');
-
-// if(amount >= 1000) {
-//     alert('Welcom to Egypt');
-//     let rooms = prompt('How rooms you need?');
-//     if(rooms <= egyptHotel) {
-//         alert('Reserved');
-//         egyptHotel = egyptHotel - rooms;
-//     } else {
-//         alert ('Sorry');
-//     }
-
-// } else if (amount >= 500 && amount < 1000) {
-//     alert('Welcom to Bulgaria');
-//     let rooms = prompt('How rooms you need?');
-//     if (rooms <= bulgariaHotel ) {
-//         alert('Reserved');
-//         bulgariaHotel = bulgariaHotel - rooms;
-//     } else {
-//         alert ('Sorry');
-//     }
-// } else if (amount >=100 && amount < 500) {
-//     alert('Welcom to Tryskavets');
-//     let rooms = prompt('How rooms you need?');
-//     if (rooms <= tryskavetsHotel) {
-//         alert('Reserved');
-//         tryskavetsHotel = tryskavetsHotel - rooms;
-//     } else {
-//         alert ('Sorry');
-//     }
-// } else {
-//     alert('Go to work');
-// }
 
 // let value = prompt('Enter month`s number');
 // let month = Number(value);
@@ -242,155 +173,12 @@
 //         alert('Enter number from 1 to 12')
 //         break;
 // }
-// switch (true) {
-//     case 1:
-//         alert('Winter');
-//         break;
-//     case 2:
-//         alert('Winter');
-//         break;
-//     case 12:
-//         alert('Winter');
-//         break;
-//     case (month >= 3 && month <=5):
-//         alert('Spring');
-//         break;
-//     case 6:
-//     case 7:
-//     case 8:
-//         alert('Summer');
-//         break;
-//     case 9:
-//     case 10:
-//     case 11:
-//         alert('Autumn');
-//         break;
-//     default:
-//         alert('Enter number from 1 to 12')
-//         break;
-// }
-
+// 
 // let a =5;
 // let b = 10;
 // let result = a > b ? 'Hello' : 'Bye';
 // let result = a > b ? 'Hello' : a < b ? 'Good' : a === b ? 'Equal' : 'Bye';
 // console.log(result);
-
-// if(5 > 6) {
-//     result = 'Hello';
-// } else {
-//     result = 'Bye';
-// }
-
-
-
-
-
-
-// let time = prompt('Enter time');
-// console.log(Number(time));
-// console.log(time);
-// if (Number(time)) {
-//     if (time <= 21) {
-//         alert('Включи футбол 1');
-//     } else {
-//         alert('Можеш йти спати');
-//     }
-// } else {
-//     alert('Введи число');
-// }
-
-// let month = prompt('Enter month').toLowerCase();
-
-// if (month === 'грудень' || month === 'січень' || month === 'лютий') {
-//     alert('Winter');
-// } else if (month === 'березень' || month === 'квітень' || month === 'травень') {
-//     alert('Spring');
-// } else if (month === 'червень' || month === 'липень' || month === 'серпень') {
-//     alert('Summer')
-// } else if (month === 'вересень' || month === 'жовтень' || month === 'листопад'){
-//     alert('Autum');
-// } else {
-//     alert('помилка вводу');
-// }
-
-// switch (month) {
-//     case 'грудень':
-//         alert('Winter');
-//         break;
-//     case 'січень':
-//         alert('Winter');
-//         break;
-//     case 'лютий':
-//         alert('Winter');
-//         break;
-//     case 'березень':
-//     case 'квітень':
-//     case 'травень':
-//         alert('Spring');
-//         break;
-//         // case (month > 5):
-//         //     alert('Test');
-//     default:
-//         alert('помилка вводу');
-//         break;
-// }
-// let age = prompt('Enter age');
-
-// let result = age > 15 ? 'Студент' : 'Учень';
-
-// let result = age > 15 ? 'Студент' : age < 15 && age > 8 ? 'Учень' : 'Дитина';
-
-
-// if (age > 15) {
-//     result = 'Студент';
-// } else {
-//     result = 'Учень';
-// }
-
-
-
-
-/*
-1) Користувач вводить суму коштів + 
-1.1) Сума має бути додатня, ціла, це має бути число. (Якщо так переходимо до пункту 2, якщо ні говоримо щоб ввів правильне число). +
-2) Якщо він ввів 20000 пропонуємо поїхати в Турцію +
-2.1) Якщо сказав Так тоді пишемо що місце заброньоване +
-2.2) Якщо ні тоді пропонуємо наступний варіант - Єгипет +
-2.2.1) Якщо каже так - бронюємо Єгипет +
-2.2.2) Якщо ні пропонуємо Болгарію + 
-2.2.2.1) Якщо так - бронюємо Болгарію +
-2.2.2.2) Якщо ні - Прийди завтра +
-*/
-// let yourMoney = +prompt('Enter amount money'); // 5000
-// // console.log(yourMoney);
-// // console.log(!isNaN(yourMoney));
-
-
-// if (yourMoney > 0 && !isNaN(yourMoney) && Number.isInteger(yourMoney)) { // yourMoney % 1 === 0
-//     if (yourMoney >= 20000) {
-//         let answer = confirm('Do you want go to Tyrkey ?');
-//         if (answer) {
-//             alert('welcomen to Tyrkey');
-//         } else {
-//             let answer = confirm('Do you want go to Egypt ?');
-//             if (answer) {
-//                 alert('welcomen to Egypt');
-//             } else {
-//                 if (confirm('Do you want go to Bulgaria ?')) {
-//                     alert('welcomen to Bulgaria');
-//                 } else {
-//                     alert('Come back tomorrow');
-//                 }
-//             }
-//         }
-//     } else {
-//         alert('You need 20000 UAH');
-//     }
-//     console.log('ok');
-// } else {
-//     alert('Wrong number');
-// }
 
 // if (yourMoney >= 20000) {
 //     alert('Welcomen Turkey');
@@ -404,14 +192,7 @@
 //     alert('Go to work');
 // }
 
-// Написати код який показує пору року в залежності від номера місяця який ми ввели.
 
-// 1) Написати код який попроситьс в користувача ввести номер місяця
-// 2) Написати перевірку яка виведе нам на екран "Зима" якщо користувач ввів числа або 12 або 1 або 2.
-// 3) весна 3 або 4 або 5.
-// 4) літо 6 або 7 або 8.
-// 5) осінь 9 або 10 або 11.
-// 6) Перевірка на помилки.
 
 // let month = +prompt('Введи номер місяця');
 // console.log(month);
